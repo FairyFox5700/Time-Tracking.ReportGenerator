@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.TimeTracking.ReportGenerator.Dal.Abstract.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\TRPZLabs\TimeTrackingWebApp\src\ReportGenerator\TimeTracking.ReportGenerator.Dal.Abstract\.idea\.idea.TimeTracking.ReportGenerator.Dal.Abstract.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

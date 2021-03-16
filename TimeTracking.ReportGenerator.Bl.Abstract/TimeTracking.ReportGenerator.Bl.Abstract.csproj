@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TimeTracking.ReportGenerator.Models\TimeTracking.ReportGenerator.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MicroElements.Swashbuckle.FluentValidation.WebApi" Version="0.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.1.0" />
+    </ItemGroup>
+
+</Project>

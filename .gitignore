@@ -420,6 +420,23 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+*.cache
+*.dll
+*.exe
+*.pdb
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser

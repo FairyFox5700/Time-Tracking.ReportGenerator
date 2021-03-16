@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\TimeTracking.Common\TimeTracking.Common.csproj" />
+      <ProjectReference Include="..\TimeTracking.ReportGenerator.Bl.Abstract\TimeTracking.ReportGenerator.Bl.Abstract.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GemBox.Spreadsheet" Version="47.0.1095" />
+      <PackageReference Include="MicroElements.Swashbuckle.FluentValidation.WebApi" Version="0.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.1.0" />
+    </ItemGroup>
+
+</Project>
